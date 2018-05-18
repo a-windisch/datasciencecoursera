@@ -11,11 +11,11 @@ Here are the first few lines of the data file.
 
  Weekly SST data starts week centered on 3Jan1990
 
-                Nino1+2      Nino3        Nino34        Nino4
- Week          SST SSTA     SST SSTA     SST SSTA     SST SSTA
- 03JAN1990     23.4-0.4     25.1-0.3     26.6 0.0     28.6 0.3
- 10JAN1990     23.4-0.8     25.2-0.3     26.6 0.1     28.6 0.3
- 17JAN1990     24.2-0.3     25.3-0.3     26.5-0.1     28.6 0.3
+|            |    Nino1+2  |    Nino3    |    Nino34   |     Nino4
+| Week       |   SST SSTA  |   SST SSTA  |   SST SSTA  |   SST SSTA
+| 03JAN1990  |   23.4-0.4  |   25.1-0.3  |   26.6 0.0  |   28.6 0.3
+| 10JAN1990  |   23.4-0.8  |   25.2-0.3  |   26.6 0.1  |   28.6 0.3
+| 17JAN1990  |   24.2-0.3  |   25.3-0.3  |   26.5-0.1  |   28.6 0.3
 
 The following bash script removes the first three lines, inserts commas between every column
 and finally collapses all white spaces. After the script has been run, the data can be read
@@ -25,8 +25,8 @@ If you want to run the script on a linux box, save the original data file to a f
 'data5.txt'. Then, copy the code below in a file called 'format.sh' in the same directory as 'data5.txt'. 
 Then, simply run
 ```console
-$ chmod +x format.xh
-$./format.sh
+$ chmod +x format.sh
+$ ./format.sh
 ```
 The file 'data5.txt' is the overwritten, being now in a csv format.
 
