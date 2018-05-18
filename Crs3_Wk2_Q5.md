@@ -7,15 +7,6 @@ to use a simple bash script with sed to turn the data file into a csv format.
 The data in question is given by [this file](https://d396qusza40orc.cloudfront.net/getdata%2Fwksst8110.for),
 which contains 9 columns with a different number of white spaces as separator.
 Note furthermore, that some negative values are not separated from the neighboring column.
-Here are the first few lines of the data file.
-
- Weekly SST data starts week centered on 3Jan1990
-
-|            |    Nino1+2  |    Nino3    |    Nino34   |     Nino4
-| Week       |   SST SSTA  |   SST SSTA  |   SST SSTA  |   SST SSTA
-| 03JAN1990  |   23.4-0.4  |   25.1-0.3  |   26.6 0.0  |   28.6 0.3
-| 10JAN1990  |   23.4-0.8  |   25.2-0.3  |   26.6 0.1  |   28.6 0.3
-| 17JAN1990  |   24.2-0.3  |   25.3-0.3  |   26.5-0.1  |   28.6 0.3
 
 The following bash script removes the first three lines, inserts commas between every column
 and finally collapses all white spaces. After the script has been run, the data can be read
