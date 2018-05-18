@@ -1,4 +1,4 @@
-# Refrormatting data using a bash script
+# Reformatting data using a bash script
 In the coursera course [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning)
 there is a question in the quiz of week 2 that addresses the issue of dealing with
 data that has not been formatted in a way that allows for a straightforward import 
@@ -7,6 +7,8 @@ to use a simple bash script with sed to turn the data file into a csv format.
 The data in question is given by [this file](https://d396qusza40orc.cloudfront.net/getdata%2Fwksst8110.for),
 which contains 9 columns with a different number of white spaces as separator.
 Note furthermore, that some negative values are not separated from the neighboring column.
+A very thorough [description of the data set for this quiz](https://github.com/lgreski/datasciencectacontent/blob/master/markdown/cleaningData-week2Q5.md) is provided by one of the courses
+mentors.
 
 The following bash script removes the first three lines, inserts commas between every column
 and finally collapses all white spaces. After the script has been run, the data can be read
