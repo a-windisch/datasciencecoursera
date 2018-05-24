@@ -369,7 +369,7 @@ Std: Standard deviation
   
 -Variable:  activity   
 --Column number:  67   
-standing sitting laying walking walkingdownstairs walkingupstairs   
+--Range:  standing sitting laying walking walkingdownstairs walkingupstairs   
 --Type : character  
   
   
@@ -711,7 +711,7 @@ The variables in this data set are averaged for every activity.
   
 -Variable:  activity   
 --Column number:  67   
-walking walkingupstairs walkingdownstairs sitting standing laying   
+--Range:  walking walkingupstairs walkingdownstairs sitting standing laying   
 --Type : character  
   
   

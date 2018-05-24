@@ -218,7 +218,7 @@ for( i in colnames(Xtotal)){
       cat("--Range: [-1,1]  \n")
       cat("--Type : numeric  \n  \n")
    } else {
-      cat(unique(Xtotal$activity),"  \n")
+      cat("--Range: ",unique(Xtotal$activity),"  \n")
       cat("--Type : character  \n  \n") 
    }
    ct <- ct + 1
@@ -236,7 +236,7 @@ for( i in colnames(Xtotal)){
       cat("--Range: [-1,1]  \n")
       cat("--Type : numeric  \n  \n")
    } else {
-      cat(unique(Xtotalaverage$activity),"  \n")
+      cat("--Range: ", unique(Xtotalaverage$activity),"  \n")
       cat("--Type : character  \n  \n") 
    }
    ct <- ct + 1
