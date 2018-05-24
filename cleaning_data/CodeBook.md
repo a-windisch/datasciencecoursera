@@ -1,8 +1,6 @@
 #  coursera Getting and Cleaning Data
 ### code book for course project
 ### Andreas Windisch, andreas.windisch@yahoo.com
-
-
 Based on this [1] data set:
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
