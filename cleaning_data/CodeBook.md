@@ -1,6 +1,7 @@
 #  coursera Getting and Cleaning Data
 ### code book for course project
 ### Andreas Windisch, andreas.windisch@yahoo.com
+## 1. Data sets 
 Based on this [1] data set:
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -15,7 +16,6 @@ www.smartlab.ws
 ==================================================================
 
 
-## 1. Data sets 
 There are two data sets, Xtotal and Xtotalaverage.
 - Dimensions Xtotal       :  10299 67 
 - Dimensions Xtotalaverage:  6 67 
